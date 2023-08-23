@@ -1,0 +1,10 @@
+<div class="container"> 
+  <h2><%= @restaurant.name %></h2>
+    <hr>
+    <p>Address: <%= @restaurant.address %></p>
+    <p>Phone Number: <%= @restaurant.phone_number %></p>
+    <p>Category: <%= @restaurant.category %></p>
+    
+    <%= link_to "Back", restaurants_path, class: 'btn btn-sm btn-success' %>
+    
+</div>
